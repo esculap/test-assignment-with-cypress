@@ -5,6 +5,11 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    experimentalStudio: true,
+    // specPattern: [
+    //   'tests/web-tables-test.cy.js',
+    //   'tests/practice-form-test.cy.js',
+    //   'tests/progress-bar-test.cy.js',
+    // ],
+    // TODO order run of files
   },
 })
